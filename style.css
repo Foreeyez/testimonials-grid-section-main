@@ -28,6 +28,7 @@ body {
     padding: 1.7rem;
     border-radius: 2%;
     color: hsl(0, 0%, 100%);;
+    position: relative;
 }
 
 
@@ -56,9 +57,9 @@ body {
 }
 
 img {
-    width: 2rem;
     border-radius: 100%;
     margin-right: .8rem;
+    width: 35px;
 }
 
 .flexed {
@@ -71,10 +72,10 @@ img {
     flex-direction: column;
 }
 
-.grid-one #quote {
+#quote {
     position: absolute;
-    left: 38%;
-    top: 10.5%;
+    top: 0;
+    right: 4rem;
 }
 
 .info {
@@ -136,9 +137,9 @@ img {
     flex-direction: column;
 }
 
-.grid-one #quote {
+#quote {
     left: 60%;
-    top: 6%;
+    top: 3%;
 }
 
 .info {
